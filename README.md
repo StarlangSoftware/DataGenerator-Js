@@ -25,7 +25,7 @@ Install the [latest version of Git](https://git-scm.com/book/en/v2/Getting-Start
 
 ## Npm Install
 
-	npm install nlptoolkit-propbank
+	npm install nlptoolkit-datagenerator
 	
 ## Download Code
 
