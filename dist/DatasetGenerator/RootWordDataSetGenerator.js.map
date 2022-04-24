@@ -1,0 +1,1 @@
+{"version":3,"file":"RootWordDataSetGenerator.js","sourceRoot":"","sources":["../../source/DatasetGenerator/RootWordDataSetGenerator.ts"],"names":[],"mappings":";;;;;;;;;;;;IAAA,yDAAoD;IAGpD,MAAa,wBAAyB,SAAQ,mCAAgB;QAE1D;;;;;;;WAOG;QACH,YAAY,SAAiB,EACjB,OAAe,EACf,kBAA2B,EAC3B,yBAAoD;YAC5D,KAAK,CAAC,SAAS,EAAE,OAAO,EAAE,kBAAkB,EAAE,yBAAyB,CAAC,CAAA;QAC5E,CAAC;KACJ;IAhBD,4DAgBC"}

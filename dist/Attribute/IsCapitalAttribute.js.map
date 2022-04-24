@@ -1,0 +1,1 @@
+{"version":3,"file":"IsCapitalAttribute.js","sourceRoot":"","sources":["../../source/Attribute/IsCapitalAttribute.ts"],"names":[],"mappings":";;;;;;;;;;;;IAAA,8FAAyF;IAEzF,MAAa,kBAAmB,SAAQ,iCAAe;QAEnD;;;;WAIG;QACH,YAAY,WAAmB;YAC3B,KAAK,CAAC,WAAW,CAAC,CAAC,CAAC,CAAC,iBAAiB,CAAC,IAAI,CAAC,IAAI,WAAW,CAAC,CAAC,CAAC,CAAC,CAAC;QACpE,CAAC;KACJ;IAVD,gDAUC"}

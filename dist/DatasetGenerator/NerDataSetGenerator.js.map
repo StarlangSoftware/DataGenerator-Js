@@ -1,0 +1,1 @@
+{"version":3,"file":"NerDataSetGenerator.js","sourceRoot":"","sources":["../../source/DatasetGenerator/NerDataSetGenerator.ts"],"names":[],"mappings":";;;;;;;;;;;;IAAA,yDAAoD;IAGpD,MAAa,mBAAoB,SAAQ,mCAAgB;QAErD;;;;;;WAMG;QACH,YAAY,SAAiB,EACjB,OAAe,EACf,oBAA0C;YAClD,KAAK,CAAC,SAAS,EAAE,OAAO,EAAE,IAAI,EAAE,oBAAoB,CAAC,CAAC;QAC1D,CAAC;KACJ;IAdD,kDAcC"}
