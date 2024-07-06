@@ -13,6 +13,13 @@
     const SimpleWindowInstanceGenerator_1 = require("./SimpleWindowInstanceGenerator");
     const Instance_1 = require("nlptoolkit-classification/dist/Instance/Instance");
     class ShallowParseInstanceGenerator extends SimpleWindowInstanceGenerator_1.SimpleWindowInstanceGenerator {
+        /**
+         * Generates a single classification instance of the Shallow Parse problem for the given word of the given sentence.
+         * If the  word has not been labeled with shallow parse tag yet, the method returns null.
+         * @param sentence Input sentence.
+         * @param wordIndex The index of the word in the sentence.
+         * @return Classification instance.
+         */
         generateInstanceFromSentence(sentence, wordIndex) {
             let word = sentence.getWord(wordIndex);
             let classLabel = word.getShallowParse();

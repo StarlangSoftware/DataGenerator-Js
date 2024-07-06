@@ -8,6 +8,13 @@ export abstract class DisambiguationInstanceGenerator extends InstanceGenerator{
     protected abstract addAttributesForPreviousWords(current: Instance, sentence: Sentence, wordIndex: number): void
     protected abstract addAttributesForEmptyWords(current: Instance, emptyWord: string): void
 
+    /**
+     * Generates a single classification instance of the morphological disambiguation problem for the given word of the
+     * given sentence. If the word does not have a morphological parse, the method throws InstanceNotGenerated.
+     * @param sentence Input sentence.
+     * @param wordIndex The index of the word in the sentence.
+     * @return Classification instance.
+     */
     public generateInstanceFromSentence(sentence: Sentence, wordIndex: number): Instance {
         let word = sentence.getWord(wordIndex) as AnnotatedWord
         let current = new Instance(word.getParse().getMorphologicalParseTransitionList())
